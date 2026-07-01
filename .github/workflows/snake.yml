@@ -14,11 +14,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - uses: Platane/snk@master
+      - uses: Platane/snk@v3
         with:
           github_user_name: ranahamza16
-          svg_out_path: dist/github-snake-dark.svg
-          build_dir: dist
+          outputs: |
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-dark.gif?palette=github-dark
       
       - uses: crazy-max/ghaction-github-pages@v3
         with:

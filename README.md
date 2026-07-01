@@ -220,7 +220,7 @@ Feed-Forward Neural Network for binary classification on medical data.
 
 Your contribution graph updates daily:
 
-![Snake Animation](https://raw.githubusercontent.com/ranahamza16/ranahamza16/output/github-snake-dark.svg)
+![Snake Animation](https://raw.githubusercontent.com/ranahamza16/ranahamza16/output/github-snake-dark.gif)
 
 ---
 
